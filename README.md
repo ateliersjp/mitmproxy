@@ -11,7 +11,7 @@ This fetches https://www.asahi.com/, but every occurrence of ```akahi``` in the 
 ### case 2
 ```http://mitmproxy-server/proxy:pass/http://www.akahi.com/https://www.asahi.com/```
 
-This is a syntax sugar to ensure hyperlinks are rewritten. This fetches https://www.asahi.com/, but every occurrence of ```https://www.asahi.com``` (the base URL) and ```asahi.com``` (the domain without ```www```) is respectively replaced by ```http://www.akahi.com``` and ```akahi.com``` in the response while the replacement is inverse in the request.
+This fetches https://www.asahi.com/, ensuring hyperlinks are rewritten. Every occurrence of ```https://www.asahi.com``` (the base URL) and ```asahi.com``` (the domain without ```www```) is respectively replaced by ```http://www.akahi.com``` and ```akahi.com``` in the response, while the replacement is inverse in the request.
 
 ### case 3
 
