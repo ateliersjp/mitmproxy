@@ -17,7 +17,7 @@ This fetches https://www.asahi.com/, ensuring hyperlinks are rewritten. Every oc
 
 ```http://mitmproxy-server/remove:script/nkf/https://www.itmedia.co.jp/```
 
-This fetches https://www.itmedia.co.jp/, a ```Shift_JIS``` page, but you'd get a decoded ```UTF-8``` page after the occurrence of ```charset=Shift_JIS``` is found and every occurrence of ```<script>``` is removed.
+This fetches https://www.itmedia.co.jp/, a ```Shift_JIS``` page, but you'd get a decoded ```UTF-8``` page and every occurrence of ```<script>``` is removed.
 
 ### case 4
 
