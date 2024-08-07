@@ -23,7 +23,7 @@ This fetches https://www.itmedia.co.jp/, a ```Shift_JIS``` page, but you'd get a
 
 ```http://mitmproxy-server/proxy:nkf/https://www.atmarkit.jp/https://atmarkit.itmedia.co.jp/```
 
-This fetches https://atmarkit.itmedia.co.jp/, ensuring hyperlinks are rewritten and this Shift_JIS page is decoded to UTF-8.
+This fetches https://atmarkit.itmedia.co.jp/, ensuring hyperlinks are rewritten and this ```Shift_JIS``` page is decoded to ```UTF-8```.
 
 ## List of filters
 Under construction
